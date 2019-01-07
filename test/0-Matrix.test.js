@@ -31,7 +31,7 @@ describe('<Matrix />', () => {
     })
   })
   
-  it("each sub-array of the default values prop is filled with 10 hex color string equal to: '#F00'", () => {
+  it("each sub-array of the default values prop is filled with 10 hex colour string equal to: '#F00'", () => {
     defRows.forEach(row => {
       row.forEach(val => {
         expect(val.toLowerCase()).to.equal('#f00')
